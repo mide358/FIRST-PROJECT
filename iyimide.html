@@ -21,9 +21,11 @@ alt="my picture">
             |  Phone: 
     <span class= "phone"> <i>07080855800, 07057454542</i> </span>
     &nbsp; 
-    | Address: 32 Zainab Street, Medina Estate, Gbagada 
+    | Address: 32 Zainab Street, Medina Estate, Gbagada <br>
+     <a href="#contact-title" id="mycontact">Contact Form</a>
     </p>
-    <br><br>
+    
+      <br><br>
       <hr size="10" color="grey">    
     </div>
    
@@ -202,7 +204,37 @@ alt="my picture">
      </div>
  </section>
 </div>
-
+<br><br>
+<hr>
+<section>
+        <div id="contact-title">
+        <h2><span>CONTACT FORM</span></h2>
+    </div>
+    <div class="container">
+                     
+    
+    <div class="row">
+        
+        <form  name="contactForm" method="POST">
+            <ul id="theform">
+                <li>Name: <br>
+                    <input type="text" id="fname"  name="name" placeholder="Full Name" minlength="4" pattern="[A-Za-z]"/></li><br>
+                 <li>Email: <br>
+                    <input type="email" id="email" name="email" placeholder="Email" required 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/></li><br>
+                <li> Title: <br> 
+                    <input type="text" id="title"  name="title" placeholder="Title of message"/></li><br>
+                <li>Message: <br>
+<textarea name="message" id="" cols="30" rows="10" placeholder="Message" minlength="20"></textarea></li>
+                <li> <button class="btn" type="submit">Submit</button></li>
+            </ul>
+            
+                      
+        </form>
+   
+           </div>
+        </div>
+</section>
    
 </body>
 </html>
