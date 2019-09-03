@@ -1,0 +1,58 @@
+html body {
+    border:0;
+    padding:0;
+    margin:0;
+    font-family: Arial;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 50px;
+    float: right;
+    margin-top: -10px;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    font-style: italic;
+}
+
+.section-title {
+   /* padding-top: 15px;*/
+    
+}
+
+h2 span {
+    background-color: rgb(229, 231, 231);
+}
+
+h3 {
+    font-style: italic;
+}
+#job-details {
+   margin-top: -12px;
+    font-style: italic;
+}
+
+.edu-details {
+    font-style: italic;
+    margin-top: -15px;
+    font-size: 17px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a:link {
+    color: rebeccapurple;
+} 
+
+hr {
+    border-radius: 5px;
+}
